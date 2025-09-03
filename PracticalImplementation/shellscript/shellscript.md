@@ -120,7 +120,6 @@ sudo ./hipaa_researcher_provision.sh
 ### Researcher-Specific Features
 
 - Research project directories
-- Jupyter notebook security configuration
 - Data deidentification tools and templates
 - IRB compliance tracking
 - Research-specific audit trails
