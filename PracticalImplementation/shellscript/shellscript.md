@@ -4,13 +4,17 @@ This guide provides comprehensive shell scripts for establishing a HIPAA-complia
 
 ## Overview
 
-The deployment consists of three main components:
+The deployment consists of nine main components:
 
-1. **Infrastructure Setup Script** - Establishes the foundational security infrastructure
+1. **Infrastructure Setup Script** - Establishes the foundational security infrastructure and file structure
 2. **Doctor Provisioning Script** - Creates secure accounts for hospital doctors
 3. **Researcher Provisioning Script** - Creates secure accounts for healthcare researchers
 4. **Nurse Provisioning Script** - Creates secure accounts for hospital nurses
-5. **Admin Provisioning Script** - Creates a seure account for hospital sysadmin
+5. **Admin Provisioning Script** - Creates a secure account for hospital sysadmin
+6. **Doctor Deprovisioning Script** - Deletes all accounts for hospital doctors
+7. **Researcher Deprovisioning Script** - Deletes all accounts for healthcare researchers
+8. **Nurse Deprovisioning Script** - Deletes all accounts for hospital nurses
+9. **Admin Deprovisioning Script** - Deletes all account(s) for hospital sysadmin(s)
 
 ## Prerequisites
 
