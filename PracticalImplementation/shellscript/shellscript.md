@@ -12,10 +12,9 @@ The deployment consists of three main components:
 
 ## Prerequisites
 
-- Ubuntu 20.04 LTS or 22.04 LTS (recommended)
+- Ubuntu 24.04.3 LTS (required)
 - Root access to the system
 - Internet connectivity for package installation
-- Dedicated healthcare-admins group members
 
 ## Quick Start
 
