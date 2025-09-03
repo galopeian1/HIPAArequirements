@@ -7,8 +7,10 @@ This guide provides comprehensive shell scripts for establishing a HIPAA-complia
 The deployment consists of three main components:
 
 1. **Infrastructure Setup Script** - Establishes the foundational security infrastructure
-2. **Doctor Provisioning Script** - Creates secure accounts for medical practitioners
+2. **Doctor Provisioning Script** - Creates secure accounts for hospital doctors
 3. **Researcher Provisioning Script** - Creates secure accounts for healthcare researchers
+4. **Nurse Provisioning Script** - Creates secure accounts for hospital nurses
+5. **Admin Provisioning Script** - Creates a seure account for hospital sysadmin
 
 ## Prerequisites
 
@@ -80,9 +82,9 @@ sudo ./hipaa_researcher_provision.sh
 
 - **Group-Based Security**: 
   - `healthcare-admins` - System administrators
-  - `doctors` - Medical practitioners
+  - `doctors` - Hospital Doctors
   - `researchers` - Research personnel
-  - `phi-read`/`phi-write` - PHI access levels
+  - `nurses` - Hospital Nurses
 - **LDAP Integration**: Ready for enterprise directory services
 - **Session Tracking**: All access logged with IP addresses and session IDs
 
